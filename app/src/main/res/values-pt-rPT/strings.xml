@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StethStream</string>
+    <string name="alert_bluetooth_not_supported_title">Alerta</string>
+    <string name="alert_gps_not_detected_title">Alerta</string>
+    <string name="alert_pairing_error_title">Erro</string>
+    <string name="state_pairing">Emparelhando…</string>
+    <string name="state_to_pair">Emparelhar</string>
+    <string name="alert_bluetooth_not_supported_content">O dispositivo não suporta Bluetooth logo, devido aos requisitos, não é possível continuar na aplicação.</string>
+    <string name="alert_gps_not_detected_content">Serviços de Localização desativados, ative de forma a detetar dispositivos através do bluetooth.</string>
+    <string name="alert_pairing_error_content">Ocorreram problemas no emparelhamento, por favor repita o processo.</string>
+    <string name="filter_bell">Campânula</string>
+    <string name="filter_diaphragm">Diafragma</string>
+    <string name="filter_extended">Raio Alargado</string>
+    <string name="add_stethoscope_label">Adicionar Estetoscópio</string>
+    <string name="add_stethoscope_hint">ou clique \'M\' e selecione \'Connect\' no Littmann</string>
+    <string name="start_streaming_label">Começar Streaming</string>
+    <string name="stop_streaming_label">Parar Streaming</string>
+    <string name="filter_title">Filtro:</string>
+    <string name="amplification_title">Amplificação:</string>
+    <string name="pairing_title">Dispositivos Disponíveis</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add Stethoscope Button -->
+    <LinearLayout
+        android:id="@+id/ll_add_stethoscope"
+        android:layout_width="@dimen/dim_button_xl"
+        android:layout_height="@dimen/dim_button_xl"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/max_logo_height_margin"
+        android:background="@drawable/background_circle_black"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Add Stethoscope Image -->
+        <ImageView
+            android:id="@+id/ib_add_stethoscope"
+            android:layout_width="@dimen/dim_ic_xxl"
+            android:layout_height="@dimen/dim_ic_xxl"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_stethoscope" />
+
+        <!-- Add Stethoscope Label -->
+        <TextView
+            android:id="@+id/tv_add_stethoscope_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:maxLines="2"
+            android:text="@string/add_stethoscope_label"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_label" />
+
+    </LinearLayout>
+
+    <!-- Add Stethoscope Help -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_add_stethoscope"
+        android:layout_alignStart="@id/ll_add_stethoscope"
+        android:layout_alignEnd="@id/ll_add_stethoscope"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/add_stethoscope_hint"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_label" />
+
+</RelativeLayout>

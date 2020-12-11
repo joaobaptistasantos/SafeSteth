@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Streaming Button -->
+    <LinearLayout
+        android:id="@+id/ll_start_streaming"
+        android:layout_width="@dimen/dim_button_xl"
+        android:layout_height="@dimen/dim_button_xl"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_circle_black"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Streaming Image -->
+        <ImageView
+            android:id="@+id/iv_start_streaming"
+            android:layout_width="@dimen/dim_ic_xxl"
+            android:layout_height="@dimen/dim_ic_xxl"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_stethoscope_streaming" />
+
+        <!-- Streaming Description -->
+        <TextView
+            android:id="@+id/tv_start_streaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="28dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/start_streaming_label"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_label" />
+
+    </LinearLayout>
+
+    <!-- Battery Icon -->
+    <ImageView
+        android:id="@+id/iv_battery"
+        android:layout_width="@dimen/dim_ic_m"
+        android:layout_height="@dimen/dim_ic_m"
+        android:layout_above="@id/rl_device_info"
+        android:layout_alignEnd="@id/rl_device_info"
+        android:layout_margin="@dimen/margin_minimum"
+        android:src="@drawable/ic_battery_low" />
+
+    <!-- Paired Device  -->
+    <RelativeLayout
+        android:id="@+id/rl_device_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/margin_screen"
+        android:layout_marginBottom="@dimen/margin_screen"
+        android:background="@drawable/round_border_gray_filled"
+        android:paddingHorizontal="@dimen/margin_minimum"
+        android:paddingVertical="@dimen/margin_small">
+
+        <!-- Bluetooth Icon -->
+        <ImageView
+            android:id="@+id/ic_device"
+            android:layout_width="@dimen/dim_ic_m"
+            android:layout_height="@dimen/dim_ic_l"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/margin_minimum"
+            android:src="@drawable/ic_bluetooth_device" />
+
+        <!-- Device Name -->
+        <TextView
+            android:id="@+id/tv_pairing_device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_turn_off_pairing"
+            android:layout_toEndOf="@id/ic_device"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="@string/non_existence_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_label" />
+
+        <!-- Filter -->
+        <LinearLayout
+            android:id="@+id/ll_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pairing_device_name"
+            android:layout_marginVertical="@dimen/margin_minimum"
+            android:layout_toStartOf="@id/iv_turn_off_pairing"
+            android:layout_toEndOf="@id/ic_device">
+
+            <!-- Filter Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_title"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_label"
+                android:textStyle="bold" />
+
+            <!-- Filter Value -->
+            <TextView
+                android:id="@+id/tv_filter_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_minimum"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="@string/non_existence_text"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_label" />
+
+        </LinearLayout>
+
+        <!-- Sound Amplification -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_filter"
+            android:layout_alignStart="@id/ll_filter"
+            android:layout_toStartOf="@id/iv_turn_off_pairing">
+
+            <!-- Sound Amplification Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/amplification_title"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_label"
+                android:textStyle="bold" />
+
+            <!-- Sound Amplification Value -->
+            <TextView
+                android:id="@+id/tv_amplification_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_minimum"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="@string/non_existence_text"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_label" />
+
+        </LinearLayout>
+
+        <!-- Turn Off Button -->
+        <ImageView
+            android:id="@+id/iv_turn_off_pairing"
+            android:layout_width="@dimen/dim_ic_xl"
+            android:layout_height="@dimen/dim_ic_xl"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/margin_minimum"
+            android:src="@drawable/ic_off" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

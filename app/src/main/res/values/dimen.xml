@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Maximum height that a logo on the top bar can have -->
+    <dimen name="max_logo_height">120dp</dimen>
+    <dimen name="max_logo_height_margin">-120dp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="dim_button_xl">220dp</dimen>
+
+    <!-- Icons -->
+    <dimen name="dim_ic_xxl">90dp</dimen>
+    <dimen name="dim_ic_xl">52dp</dimen>
+    <dimen name="dim_ic_l">48dp</dimen>
+    <dimen name="dim_ic_m">32dp</dimen>
+    <dimen name="dim_ic_s">24dp</dimen>
+    <dimen name="dim_ic_xs">16dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="margin_screen">20dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_minimum">8dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_label">16sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+</resources>

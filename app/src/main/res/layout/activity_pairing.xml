@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.PairingActivity">
+
+    <!-- Top Bar -->
+    <RelativeLayout
+        android:id="@+id/rlTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_screen"
+        android:layout_marginTop="@dimen/margin_screen">
+
+        <!-- Top Bar Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/ibClose"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="@string/pairing_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <!-- Top Bar Close -->
+        <ImageView
+            android:id="@+id/ibClose"
+            android:layout_width="@dimen/dim_ic_xs"
+            android:layout_height="@dimen/dim_ic_xs"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_close" />
+
+    </RelativeLayout>
+
+    <!-- Recycler View to list all bluetooth available devices -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAvailableDevices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rlTopBar"
+        android:layout_marginHorizontal="@dimen/margin_screen"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="@dimen/margin_screen" />
+
+</RelativeLayout>

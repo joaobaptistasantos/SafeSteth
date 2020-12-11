@@ -1,0 +1,43 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">StethStream</string>
+
+    <!-- Add Fragment -->
+    <string name="add_stethoscope_label">Add Stethoscope</string>
+    <string name="add_stethoscope_hint">or click \'M\' and select \'Connect\' on Littmann</string>
+
+    <!-- Connected Fragment -->
+    <string name="start_streaming_label">Start Streaming</string>
+    <string name="stop_streaming_label">Stop Streaming</string>
+    <string name="filter_title">Filter:</string>
+    <string name="amplification_title">Amplification:</string>
+
+    <!-- Pairing Activity -->
+    <string name="pairing_title">Available Devices</string>
+    <string name="state_pairing">Pairing…</string>
+    <string name="state_to_pair">Pair</string>
+
+    <!-- Stethoscope Filters -->
+    <string name="filter_bell">Bell</string>
+    <string name="filter_diaphragm">Diaphragm</string>
+    <string name="filter_extended">Extended Range</string>
+
+    <!-- Error -->
+    <string name="non_existence_text" translatable="false">N/A</string>
+
+    <!-- Bluetooth Not Supported -->
+    <string name="alert_bluetooth_not_supported_title">Alert</string>
+    <string name="alert_bluetooth_not_supported_content">Device does not support Bluetooth so you are not allowed, due to the requirements, to keep going on the app.</string>
+    <string name="alert_bluetooth_not_supported_ok" translatable="false">OK</string>
+
+    <!-- GPS Not Detected -->
+    <string name="alert_gps_not_detected_title">Alert</string>
+    <string name="alert_gps_not_detected_content">Services Location seems to be disabled, enable it in order to detect devices with bluetooth capabilities.</string>
+    <string name="alert_gps_not_detected_ok" translatable="false">OK</string>
+
+    <!-- Error Pairing -->
+    <string name="alert_pairing_error_title">Error</string>
+    <string name="alert_pairing_error_content">There was some problems during pairing, please try again.</string>
+    <string name="alert_pairing_error_ok" translatable="false">OK</string>
+
+</resources>
