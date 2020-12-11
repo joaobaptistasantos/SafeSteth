@@ -33,12 +33,12 @@ If the user wants to connect mannualy, follow the next instructions:
 
 ### Notes
 
-* If it is the first usage it's required to pair the stethoscope on the Bluetooth settings on your's Android device. 
+If it is the first usage it's required to pair the stethoscope on the Bluetooth settings on your's Android device. 
 
 ## Requirements
 
 * Android 7.0 (API Level 24) or higher
-* Littmann Electronic Stethoscope Model 3200
+* [Littmann Electronic Stethoscope Model 3200](https://www.littmann.com/3M/en_US/littmann-stethoscopes/products/~/3M-Littmann-Electronic-Stethoscope-Model-3200/?N=5932256+8711017+3293188392&rt=rud)
 
 We recommend the usage of bluetooth headphones for a more practical usage.
 
