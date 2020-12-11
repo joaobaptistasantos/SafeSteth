@@ -1,4 +1,4 @@
-# StethStream
+# StethForCOVID
 
 The actual pandemic caused by SARS-CoV-2, or COVID-19, forces ourselves to adapt to new ways of interaction and social communicate. Because of this pandemic we started to use masks on streets and closed spaces, we have to maintain social distancing, and many other restrictions to keep us safe. Besides that, but still caused by COVID-19 pandemic, the auscultation practise become compromised. In order to doctors ensure that they are fully protected and safe dealing with their patients, they need to wear protective and certified clothing. This clothing, to meet all the certification standards, needs to be completelly closed what makes it impossible to have the stethoscope on the doctor's ear.
 
@@ -20,7 +20,7 @@ In order to connect automatically is just needed that the user starts the applic
 
 ### Mannually Connection
 
-If the user wants to connect mannualy, follow the next instructions:
+If the user wants to connect manually, follow the next instructions:
 
 1. Run the application on your device
 2. Turn on the Littmann Model 3200

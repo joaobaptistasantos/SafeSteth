@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.uc.health.com.uc.health.com.uc.health.com.uc.health.stethstream",
+  "applicationId": "com.uc.health.stethstream",
   "variantName": "processReleaseResources",
   "elements": [
     {
