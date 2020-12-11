@@ -15,9 +15,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae6b5f6-4b44-4ca1-acc6-a907cc6d0306" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/uc/health/stethstream/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/uc/health/stethforcovid/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/AudioConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/AudioConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/IOnBackPressed.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/IOnBackPressed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/PairingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/PairingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/TTSInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/TTSInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/model/DataHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/model/DataHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/model/MediaPlayerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/model/MediaPlayerWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/model/PermissionsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/model/PermissionsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/model/StreamingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/model/StreamingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/view/AddFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/view/AddFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/view/ConnectedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/view/ConnectedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/view/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/view/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethstream/view/PairingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/stethforcovid/view/PairingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/uc/health/stethstream/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/uc/health/stethforcovid/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,10 +355,11 @@
     </state>
     <state width="1878" height="442" key="GridCell.Tab.1.right/0.0.1280.800/-291.-1080.1920.1080@-291.-1080.1920.1080" timestamp="1604634899399" />
     <state width="1238" height="177" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1604979383310" />
-    <state x="524" y="-1005" key="SettingsEditor" timestamp="1605904056280">
-      <screen x="-291" y="-1080" width="1920" height="1080" />
+    <state x="283" y="56" key="SettingsEditor" timestamp="1607707160973">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="524" y="-1005" key="SettingsEditor/0.0.1280.800/-291.-1080.1920.1080@-291.-1080.1920.1080" timestamp="1605904056280" />
+    <state x="283" y="56" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607707160973" />
     <state x="446" y="-763" key="chooseDestDirectoryDialog" timestamp="1604575981944">
       <screen x="-291" y="-1080" width="1920" height="1080" />
     </state>

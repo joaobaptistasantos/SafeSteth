@@ -1,4 +1,4 @@
-package com.uc.health.stethstream.view;
+package com.uc.health.stethforcovid.view;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -15,14 +15,14 @@ import androidx.fragment.app.Fragment;
 import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.Stethoscope;
-import com.uc.health.stethstream.R;
-import com.uc.health.stethstream.model.DataHolder;
-import com.uc.health.stethstream.model.PermissionsManager;
+import com.uc.health.stethforcovid.R;
+import com.uc.health.stethforcovid.model.DataHolder;
+import com.uc.health.stethforcovid.model.PermissionsManager;
 
 import java.io.IOException;
 import java.util.Vector;
 
-import static com.uc.health.stethstream.Constants.PAIR_DEVICES;
+import static com.uc.health.stethforcovid.Constants.PAIR_DEVICES;
 
 public class AddFragment extends Fragment {
     // View elements

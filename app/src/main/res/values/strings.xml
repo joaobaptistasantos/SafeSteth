@@ -1,6 +1,6 @@
 <resources>
     <!-- Application Name -->
-    <string name="app_name">StethStream</string>
+    <string name="app_name">StethForCOVID</string>
 
     <!-- Add Fragment -->
     <string name="add_stethoscope_label">Add Stethoscope</string>

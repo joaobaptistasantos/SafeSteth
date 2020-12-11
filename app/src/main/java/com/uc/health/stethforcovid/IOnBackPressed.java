@@ -1,4 +1,4 @@
-package com.uc.health.stethstream;
+package com.uc.health.stethforcovid;
 
 public interface IOnBackPressed {
     /**

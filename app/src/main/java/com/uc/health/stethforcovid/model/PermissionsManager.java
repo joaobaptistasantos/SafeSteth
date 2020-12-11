@@ -1,4 +1,4 @@
-package com.uc.health.stethstream.model;
+package com.uc.health.stethforcovid.model;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;

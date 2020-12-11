@@ -6,7 +6,7 @@ StethStream is the solution to that problem since it makes possible to a doctor,
 
 ## Instructions of usage
 
-To be capable of use the **StethStream** application is required to download and install the application from the [Google Play Store](https://play.google.com/store/apps/details?id=com.uc.health.stethstream).
+To be capable of use the **StethForCOVID** application is required to download and install the application from the [Google Play Store](https://play.google.com/store/apps/details?id=com.uc.health.stethstream).
 
 ### Automatic Connection
 
@@ -49,7 +49,7 @@ We recommend the usage of bluetooth headphones for a more practical usage.
 
 ## Versioning
 
-For the versions available, see the [tags on this repository](https://github.com/joaobaptistasantos/StethStream/tags). 
+For the versions available, see the [tags on this repository](https://github.com/joaobaptistasantos/StethForCOVID/tags). 
 
 ## Future Work
 

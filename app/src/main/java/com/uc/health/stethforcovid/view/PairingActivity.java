@@ -1,4 +1,4 @@
-package com.uc.health.stethstream.view;
+package com.uc.health.stethforcovid.view;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -21,16 +21,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.Stethoscope;
-import com.uc.health.stethstream.PairingAdapter;
-import com.uc.health.stethstream.R;
-import com.uc.health.stethstream.model.DataHolder;
+import com.uc.health.stethforcovid.PairingAdapter;
+import com.uc.health.stethforcovid.R;
+import com.uc.health.stethforcovid.model.DataHolder;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static com.uc.health.stethstream.Constants.PAIR_DEVICES_SUCCESSFUL;
-import static com.uc.health.stethstream.Constants.REQUEST_DISCOVERABLE_BT;
-import static com.uc.health.stethstream.Constants.REQUEST_ENABLE_BT;
+import static com.uc.health.stethforcovid.Constants.PAIR_DEVICES_SUCCESSFUL;
+import static com.uc.health.stethforcovid.Constants.REQUEST_DISCOVERABLE_BT;
+import static com.uc.health.stethforcovid.Constants.REQUEST_ENABLE_BT;
 
 public class PairingActivity extends AppCompatActivity {
 
