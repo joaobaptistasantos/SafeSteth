@@ -47,8 +47,8 @@ For the versions available, see the [tags on this repository](https://github.com
 
 ## Future Work
 
-[] Reduce the existing latency on auscultation using Android NDK
-[] Make it possible to record audio tracks, during a short period of time, in order to students or junior doctors 
+- [ ] Reduce the existing latency on auscultation using Android NDK
+- [ ] Make it possible to record audio tracks, during a short period of time, in order to students or junior doctors 
 
 We will constantly trying to fix errors that might happen and for that we hope all users report them to us.
 
