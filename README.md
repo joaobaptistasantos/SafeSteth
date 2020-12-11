@@ -38,8 +38,8 @@ We recommend the usage of bluetooth headphones for a more practical usage.
 
 ## Built With
 
-* (JAVA)[https://www.java.com] - Programming language used
-* (Android Studio)[https://developer.android.com/studio] 4.1 - IDE used
+* [JAVA](https://www.java.com) - Programming language used
+* [Android Studio](https://developer.android.com/studio) 4.1 - IDE used
 
 ## Versioning
 
@@ -58,8 +58,8 @@ We will constantly trying to fix errors that might happen and for that we hope a
 
 With the support of
 
-* Pr. Paulo de Carvalho and Pr. Dr. Henrique Madeira from ** [CISUC](https://www.cisuc.uc.pt) ** - [University of Coimbra](https://www.uc.pt)
-* Dr. Carlos Robalo Cordeiro e Dr. Tiago Alfaro from ** [CHUC](https://www.chuc.min-saude.pt) **
+* [Pr. Paulo de Carvalho](https://www.cisuc.uc.pt/en/people/paulo-carvalho) and [Pr. Dr. Henrique Madeira](https://www.cisuc.uc.pt/en/people/henrique-madeira) from [CISUC](https://www.cisuc.uc.pt) - [University of Coimbra](https://www.uc.pt)
+* [Dr. Carlos Robalo Cordeiro](https://www.uc.pt/fmuc/pessoas/docentes/CarlosCordeiro) e [Dr. Tiago Alfaro](https://www.uc.pt/fmuc/pessoas/docentes/TiagoAlfaro) from [CHUC](https://www.chuc.min-saude.pt)
 
 ## License
 
