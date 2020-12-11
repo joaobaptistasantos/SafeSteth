@@ -8,6 +8,8 @@ StethStream is the solution to that problem since it makes possible to a doctor,
 
 To be capable of use the **StethStream** application is required to download and install the application from the [Google Play Store](https://play.google.com/store/apps/details?id=com.uc.health.stethstream).
 
+### Automatic Connection
+
 In order to connect automatically is just needed that the user starts the application and manages the Littmann by following the next instructions:
 
 1. Run the application on your device
@@ -15,6 +17,8 @@ In order to connect automatically is just needed that the user starts the applic
 3. Click 'M' on the stethoscope
 4. With the 'Connect' option selected, click 'M' again on the stethoscope
 5. Wait unitl the connected menu appears and click 'M' on the stethoscope in order to start, or stop, streaming
+
+### Mannually Connection
 
 If the user wants to connect mannualy, follow the next instructions:
 
@@ -27,7 +31,9 @@ If the user wants to connect mannualy, follow the next instructions:
 7. With the 'Connect' option selected, click 'M' again on the stethoscope
 8. Wait unitl the connected menu appears and click 'M' on the stethoscope in order to start, or stop, streaming
 
-If it is the first usage it's required to pair the stethoscope on the Bluetooth settings on your's Android device. 
+### Notes
+
+* If it is the first usage it's required to pair the stethoscope on the Bluetooth settings on your's Android device. 
 
 ## Requirements
 
