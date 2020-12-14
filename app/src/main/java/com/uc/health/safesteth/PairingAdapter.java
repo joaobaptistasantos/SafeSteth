@@ -14,6 +14,10 @@ import com.mmm.healthcare.scope.Stethoscope;
 
 import java.util.ArrayList;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public class PairingAdapter extends RecyclerView.Adapter<PairingAdapter.PairingViewHolder> {
 
     private final Context context;

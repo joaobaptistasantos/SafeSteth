@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -36,9 +37,15 @@ import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_CONNECT
 import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_DISCONNECTED;
 import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_ERROR;
 import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_OUT_OF_RANGE;
+import static com.uc.health.safesteth.Constants.DISPLAY_IMAGE_LIVE;
+import static com.uc.health.safesteth.Constants.DISPLAY_IMAGE_OFF;
 import static com.uc.health.safesteth.Constants.MESSAGES_KEY;
 import static com.uc.health.safesteth.Constants.STATE_ERROR;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public class ConnectedFragment extends Fragment implements IOnBackPressed {
 
     /**
@@ -77,17 +84,14 @@ public class ConnectedFragment extends Fragment implements IOnBackPressed {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        /* Get the Assets Manager */
         assetManager = getContext().getAssets();
 
-        try {
-            // Add listener to the selected stethoscope
-            addStethoscopeListener();
+        /* Add listener interface to the selected stethoscope */
+        addStethoscopeListener();
 
-            // Set display image to stethoscope
-            DataHolder.getInstance().getmStethoscope().setDisplay(BitmapFactory.createBitmap("sample.bmp"));
-        } catch (IOException | StethoscopeException e) {
-            handleDisconnection();
-        }
+        /* Set OFF's image on display*/
+        setDisplayImage(DISPLAY_IMAGE_OFF);
     }
 
     @Override
@@ -173,6 +177,23 @@ public class ConnectedFragment extends Fragment implements IOnBackPressed {
         super.onDetach();
     }
 
+    /**
+     * Method that set a image on stethoscope's display
+     * @param imagePath path of the image to be set
+     */
+    private void setDisplayImage(String imagePath){
+        try {
+            /* Set the display image on the stethoscope */
+            DataHolder.getInstance().getmStethoscope().setDisplay(BitmapFactory.createBitmap(imagePath));
+        } catch (IllegalArgumentException | IOException e) {
+            /* Make a Toast appears to warn the user to an error occured setting the display image */
+            Toast.makeText(getContext(),
+                    R.string.display_image_error,
+                    Toast.LENGTH_SHORT)
+                    .show();
+        }
+    }
+
     private  void handleStreaming() {
         // Setup the streaming service
         if (streamingService == null)
@@ -191,6 +212,9 @@ public class ConnectedFragment extends Fragment implements IOnBackPressed {
                 ivStartStreaming.setImageDrawable(getActivity().getDrawable(R.drawable.ic_stop_streaming));
                 tvStartStreaming.setText(getString(R.string.stop_streaming_label));
 
+                /* Set LIVE's image on display*/
+                setDisplayImage(DISPLAY_IMAGE_LIVE);
+
             } catch (Exception e) {
                 MediaPlayerWrapper.queueAudioFile(assetManager, WARNING_ERROR_STREAMING);
             }
@@ -198,6 +222,9 @@ public class ConnectedFragment extends Fragment implements IOnBackPressed {
 
             ivStartStreaming.setImageDrawable(getActivity().getDrawable(R.drawable.ic_stethoscope_streaming));
             tvStartStreaming.setText(getString(R.string.start_streaming_label));
+
+            /* Set OFF's image on display*/
+            setDisplayImage(DISPLAY_IMAGE_OFF);
 
             // Stop the streaming service
             streamingService.stopStreaming();

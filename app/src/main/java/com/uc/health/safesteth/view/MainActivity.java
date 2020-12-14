@@ -26,6 +26,10 @@ import static com.uc.health.safesteth.Constants.REQUEST_ACCESS_COARSE_LOCATION;
 import static com.uc.health.safesteth.Constants.REQUEST_DISCOVERABLE_BT;
 import static com.uc.health.safesteth.Constants.REQUEST_ENABLE_BT;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public class MainActivity extends AppCompatActivity {
 
     /**

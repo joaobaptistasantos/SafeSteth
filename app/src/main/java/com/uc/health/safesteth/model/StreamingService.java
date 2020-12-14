@@ -22,7 +22,7 @@ import static com.uc.health.safesteth.Constants.STATE_ERROR;
  * Service to manage streaming data using the received data from the stethoscope
  *
  * @author João R. B. Santos
- * @since 0.2
+ * @since 1.0
  */
 public class StreamingService {
 

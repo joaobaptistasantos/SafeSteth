@@ -4,6 +4,10 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public class TTSInputStream extends DataInputStream {
 
     public TTSInputStream(InputStream in) {
