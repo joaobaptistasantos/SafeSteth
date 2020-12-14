@@ -1,4 +1,4 @@
-package com.uc.health.stethforcovid.view;
+package com.uc.health.safesteth.view;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -16,15 +16,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.mmm.healthcare.scope.ConfigurationFactory;
-import com.uc.health.stethforcovid.R;
-import com.uc.health.stethforcovid.IOnBackPressed;
-import com.uc.health.stethforcovid.model.PermissionsManager;
+import com.uc.health.safesteth.R;
+import com.uc.health.safesteth.IOnBackPressed;
+import com.uc.health.safesteth.model.PermissionsManager;
 
-import static com.uc.health.stethforcovid.Constants.PAIR_DEVICES;
-import static com.uc.health.stethforcovid.Constants.PAIR_DEVICES_SUCCESSFUL;
-import static com.uc.health.stethforcovid.Constants.REQUEST_ACCESS_COARSE_LOCATION;
-import static com.uc.health.stethforcovid.Constants.REQUEST_DISCOVERABLE_BT;
-import static com.uc.health.stethforcovid.Constants.REQUEST_ENABLE_BT;
+import static com.uc.health.safesteth.Constants.PAIR_DEVICES;
+import static com.uc.health.safesteth.Constants.PAIR_DEVICES_SUCCESSFUL;
+import static com.uc.health.safesteth.Constants.REQUEST_ACCESS_COARSE_LOCATION;
+import static com.uc.health.safesteth.Constants.REQUEST_DISCOVERABLE_BT;
+import static com.uc.health.safesteth.Constants.REQUEST_ENABLE_BT;
 
 public class MainActivity extends AppCompatActivity {
 

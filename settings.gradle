@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "StethStream"
+rootProject.name = "SafeSteth"

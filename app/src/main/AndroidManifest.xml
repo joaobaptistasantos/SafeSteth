@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.uc.health.stethforcovid">
+    package="com.uc.health.safesteth">
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -23,11 +23,11 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
-            android:name="com.uc.health.stethforcovid.view.PairingActivity"
+            android:name="com.uc.health.safesteth.view.PairingActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.uc.health.stethforcovid.view.MainActivity"
+            android:name="com.uc.health.safesteth.view.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

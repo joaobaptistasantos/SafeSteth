@@ -1,4 +1,4 @@
-# StethForCOVID
+# SafeSteth
 
 The actual pandemic caused by SARS-CoV-2, or COVID-19, forces ourselves to adapt to new ways of interaction and social communicate. Because of this pandemic we started to use masks on streets and closed spaces, we have to maintain social distancing, and many other restrictions to keep us safe. Besides that, but still caused by COVID-19 pandemic, the auscultation practise become compromised. In order to doctors ensure that they are fully protected and safe dealing with their patients, they need to wear protective and certified clothing. This clothing, to meet all the certification standards, needs to be completelly closed what makes it impossible to have the stethoscope on the doctor's ear.
 
@@ -6,7 +6,7 @@ StethStream is the solution to that problem since it makes possible to a doctor,
 
 ## Instructions of usage
 
-To be capable of use the **StethForCOVID** application is required to download and install the application from the [Google Play Store](https://play.google.com/store/apps/details?id=com.uc.health.stethstream).
+To be capable of use the **SafeSteth** application is required to download and install the application from the [Google Play Store](https://play.google.com/store/apps/details?id=com.uc.health.stethstream).
 
 ### Automatic Connection
 
@@ -49,7 +49,7 @@ We recommend the usage of bluetooth headphones for a more practical usage.
 
 ## Versioning
 
-For the versions available, see the [tags on this repository](https://github.com/joaobaptistasantos/StethForCOVID/tags). 
+For the versions available, see the [tags on this repository](https://github.com/joaobaptistasantos/SafeSteth/tags). 
 
 ## Future Work
 

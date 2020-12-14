@@ -1,4 +1,4 @@
-package com.uc.health.stethforcovid;
+package com.uc.health.safesteth;
 
 import java.io.DataInputStream;
 import java.io.IOException;

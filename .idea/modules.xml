@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/StethStream.iml" filepath="$PROJECT_DIR$/.idea/StethStream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StethStream.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StethStream.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SafeSteth.iml" filepath="$PROJECT_DIR$/.idea/modules/SafeSteth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SafeSteth.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SafeSteth.app.iml" />
     </modules>
   </component>
 </project>
