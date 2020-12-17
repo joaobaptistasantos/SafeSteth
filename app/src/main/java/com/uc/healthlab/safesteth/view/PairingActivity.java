@@ -1,4 +1,4 @@
-package com.uc.health.safesteth.view;
+package com.uc.healthlab.safesteth.view;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -23,21 +22,20 @@ import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.Stethoscope;
 import com.mmm.healthcare.scope.StethoscopeException;
-import com.uc.health.safesteth.Constants;
-import com.uc.health.safesteth.PairingAdapter;
-import com.uc.health.safesteth.R;
-import com.uc.health.safesteth.model.DataHolder;
+import com.uc.healthlab.safesteth.PairingAdapter;
+import com.uc.healthlab.safesteth.R;
+import com.uc.healthlab.safesteth.model.DataHolder;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_CANCELED;
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_ERROR;
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_NO_DEVICES;
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_SUCCESSFUL;
-import static com.uc.health.safesteth.Constants.PAIR_DEVICES_SUCCESSFUL;
-import static com.uc.health.safesteth.Constants.REQUEST_DISCOVERABLE_BT;
-import static com.uc.health.safesteth.Constants.REQUEST_ENABLE_BT;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_CANCELED;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_ERROR;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_NO_DEVICES;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_SUCCESSFUL;
+import static com.uc.healthlab.safesteth.Constants.PAIR_DEVICES_SUCCESSFUL;
+import static com.uc.healthlab.safesteth.Constants.REQUEST_DISCOVERABLE_BT;
+import static com.uc.healthlab.safesteth.Constants.REQUEST_ENABLE_BT;
 
 /**
  * @author João R. B. Santos

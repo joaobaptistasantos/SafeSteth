@@ -1,4 +1,4 @@
-package com.uc.health.safesteth;
+package com.uc.healthlab.safesteth;
 
 import android.content.Context;
 import android.view.LayoutInflater;

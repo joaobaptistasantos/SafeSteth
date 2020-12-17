@@ -1,4 +1,4 @@
-package com.uc.health.safesteth.view;
+package com.uc.healthlab.safesteth.view;
 
 import android.content.res.AssetManager;
 import android.os.AsyncTask;
@@ -23,24 +23,24 @@ import com.mmm.healthcare.scope.Errors;
 import com.mmm.healthcare.scope.IStethoscopeListener;
 import com.mmm.healthcare.scope.Stethoscope;
 import com.mmm.healthcare.scope.StethoscopeException;
-import com.uc.health.safesteth.IOnBackPressed;
-import com.uc.health.safesteth.R;
-import com.uc.health.safesteth.model.DataHolder;
-import com.uc.health.safesteth.model.MediaPlayerWrapper;
-import com.uc.health.safesteth.model.StreamingService;
+import com.uc.healthlab.safesteth.IOnBackPressed;
+import com.uc.healthlab.safesteth.R;
+import com.uc.healthlab.safesteth.model.DataHolder;
+import com.uc.healthlab.safesteth.model.MediaPlayerWrapper;
+import com.uc.healthlab.safesteth.model.StreamingService;
 
 import java.io.IOException;
 
-import static com.uc.health.safesteth.AudioConstants.WARNING_BATTERY_LOW;
-import static com.uc.health.safesteth.AudioConstants.WARNING_ERROR_STREAMING;
-import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_CONNECTED;
-import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_DISCONNECTED;
-import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_ERROR;
-import static com.uc.health.safesteth.AudioConstants.WARNING_STETHOSCOPE_OUT_OF_RANGE;
-import static com.uc.health.safesteth.Constants.DISPLAY_IMAGE_LIVE;
-import static com.uc.health.safesteth.Constants.DISPLAY_IMAGE_OFF;
-import static com.uc.health.safesteth.Constants.MESSAGES_KEY;
-import static com.uc.health.safesteth.Constants.STATE_ERROR;
+import static com.uc.healthlab.safesteth.AudioConstants.WARNING_BATTERY_LOW;
+import static com.uc.healthlab.safesteth.AudioConstants.WARNING_ERROR_STREAMING;
+import static com.uc.healthlab.safesteth.AudioConstants.WARNING_STETHOSCOPE_CONNECTED;
+import static com.uc.healthlab.safesteth.AudioConstants.WARNING_STETHOSCOPE_DISCONNECTED;
+import static com.uc.healthlab.safesteth.AudioConstants.WARNING_STETHOSCOPE_ERROR;
+import static com.uc.healthlab.safesteth.AudioConstants.WARNING_STETHOSCOPE_OUT_OF_RANGE;
+import static com.uc.healthlab.safesteth.Constants.DISPLAY_IMAGE_LIVE;
+import static com.uc.healthlab.safesteth.Constants.DISPLAY_IMAGE_OFF;
+import static com.uc.healthlab.safesteth.Constants.MESSAGES_KEY;
+import static com.uc.healthlab.safesteth.Constants.STATE_ERROR;
 
 /**
  * @author João R. B. Santos

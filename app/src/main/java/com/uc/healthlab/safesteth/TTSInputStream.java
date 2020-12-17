@@ -1,4 +1,4 @@
-package com.uc.health.safesteth;
+package com.uc.healthlab.safesteth;
 
 import java.io.DataInputStream;
 import java.io.IOException;

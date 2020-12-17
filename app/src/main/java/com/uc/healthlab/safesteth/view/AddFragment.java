@@ -1,4 +1,4 @@
-package com.uc.health.safesteth.view;
+package com.uc.healthlab.safesteth.view;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -16,18 +16,18 @@ import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.Stethoscope;
 import com.mmm.healthcare.scope.StethoscopeException;
-import com.uc.health.safesteth.R;
-import com.uc.health.safesteth.model.DataHolder;
-import com.uc.health.safesteth.model.PermissionsManager;
+import com.uc.healthlab.safesteth.R;
+import com.uc.healthlab.safesteth.model.DataHolder;
+import com.uc.healthlab.safesteth.model.PermissionsManager;
 
 import java.io.IOException;
 import java.util.Vector;
 
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_CANCELED;
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_ERROR;
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_NO_DEVICES;
-import static com.uc.health.safesteth.Constants.CONNECT_TASK_SUCCESSFUL;
-import static com.uc.health.safesteth.Constants.PAIR_DEVICES;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_CANCELED;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_ERROR;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_NO_DEVICES;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_SUCCESSFUL;
+import static com.uc.healthlab.safesteth.Constants.PAIR_DEVICES;
 
 /**
  * @author João R. B. Santos

@@ -14,39 +14,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae6b5f6-4b44-4ca1-acc6-a907cc6d0306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/live.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/off.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/sample.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/AudioConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/AudioConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/IOnBackPressed.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/IOnBackPressed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/PairingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/PairingAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/TTSInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/TTSInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/DataHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/DataHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/PermissionsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/PermissionsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/StreamingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/StreamingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/AddFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/AddFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/ConnectedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/ConnectedFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/PairingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/PairingActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-pt-rPT/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-pt-rPT/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/uc/health/safesteth/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/uc/healthlab/safesteth/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/AudioConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/AudioConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/IOnBackPressed.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/IOnBackPressed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/PairingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/PairingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/TTSInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/TTSInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/DataHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/model/DataHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/MediaPlayerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/model/MediaPlayerWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/PermissionsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/model/PermissionsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/model/StreamingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/model/StreamingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/AddFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/view/AddFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/ConnectedFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/view/ConnectedFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/view/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uc/health/safesteth/view/PairingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uc/healthlab/safesteth/view/PairingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/uc/health/safesteth/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/uc/healthlab/safesteth/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +76,7 @@
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="/Volumes/JoaoSantos/Trabalhos/Bolsa Estetoscópio/key_stethstream" />
+    <option name="KEY_STORE_PATH" value="/Volumes/JoaoSantos/CISUC/Bolsa SafeSteth/Deliverables/key_stethstream" />
     <option name="KEY_ALIAS" value="key_stethstream" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
@@ -92,7 +85,6 @@
   </component>
   <component name="ProjectId" id="1iTkh5FbUiHflRPBj3Qbe1lMmHc" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -313,25 +305,29 @@
     </state>
     <state x="257" y="-786" key="AndroidCreateResourceFileDialog/0.0.1280.800/-291.-1080.1920.1080@-291.-1080.1920.1080" timestamp="1604504623263" />
     <state x="365" y="218" key="AndroidCreateResourceFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1604531414376" />
-    <state width="1878" height="723" key="GridCell.Tab.0.bottom" timestamp="1607989769007">
-      <screen x="-291" y="-1080" width="1920" height="1080" />
+    <state width="1238" height="630" key="GridCell.Tab.0.bottom" timestamp="1608206880746">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1878" height="723" key="GridCell.Tab.0.bottom/0.0.1280.800/-291.-1080.1920.1080@-291.-1080.1920.1080" timestamp="1607989769007" />
+    <state width="1238" height="630" key="GridCell.Tab.0.bottom/0.0.1280.800/-291.-1080.1920.1080@0.0.1280.800" timestamp="1608206880746" />
     <state width="1238" height="235" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607340954730" />
-    <state width="1878" height="723" key="GridCell.Tab.0.center" timestamp="1607989769005">
-      <screen x="-291" y="-1080" width="1920" height="1080" />
+    <state width="1238" height="630" key="GridCell.Tab.0.center" timestamp="1608206880744">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1878" height="723" key="GridCell.Tab.0.center/0.0.1280.800/-291.-1080.1920.1080@-291.-1080.1920.1080" timestamp="1607989769005" />
+    <state width="1238" height="630" key="GridCell.Tab.0.center/0.0.1280.800/-291.-1080.1920.1080@0.0.1280.800" timestamp="1608206880744" />
     <state width="1238" height="235" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607340954729" />
-    <state width="1878" height="723" key="GridCell.Tab.0.left" timestamp="1607989769004">
-      <screen x="-291" y="-1080" width="1920" height="1080" />
+    <state width="1238" height="630" key="GridCell.Tab.0.left" timestamp="1608206880743">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1878" height="723" key="GridCell.Tab.0.left/0.0.1280.800/-291.-1080.1920.1080@-291.-1080.1920.1080" timestamp="1607989769004" />
+    <state width="1238" height="630" key="GridCell.Tab.0.left/0.0.1280.800/-291.-1080.1920.1080@0.0.1280.800" timestamp="1608206880743" />
     <state width="1238" height="235" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607340954727" />
-    <state width="1878" height="723" key="GridCell.Tab.0.right" timestamp="1607989769006">
-      <screen x="-291" y="-1080" width="1920" height="1080" />
+    <state width="1238" height="630" key="GridCell.Tab.0.right" timestamp="1608206880745">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1878" height="723" key="GridCell.Tab.0.right/0.0.1280.800/-291.-1080.1920.1080@-291.-1080.1920.1080" timestamp="1607989769006" />
+    <state width="1238" height="630" key="GridCell.Tab.0.right/0.0.1280.800/-291.-1080.1920.1080@0.0.1280.800" timestamp="1608206880745" />
     <state width="1238" height="235" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607340954729" />
     <state width="1238" height="177" key="GridCell.Tab.1.bottom" timestamp="1604979383311">
       <screen x="0" y="0" width="1280" height="800" />

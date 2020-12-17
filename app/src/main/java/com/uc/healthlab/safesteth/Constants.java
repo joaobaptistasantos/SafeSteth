@@ -1,4 +1,4 @@
-package com.uc.health.safesteth;
+package com.uc.healthlab.safesteth;
 
 /**
  * @author João R. B. Santos

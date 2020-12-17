@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.uc.health.safesteth",
+  "applicationId": "com.uc.healthlab.safesteth",
   "variantName": "processReleaseResources",
   "elements": [
     {
