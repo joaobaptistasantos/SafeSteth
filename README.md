@@ -6,7 +6,7 @@ StethStream is the solution to that problem since it makes possible to a doctor,
 
 ## Instructions of usage
 
-To be capable of use the **SafeSteth** application is required to download and install the application from the [Google Play Store](https://play.google.com/store/apps/details?id=com.uc.health.stethstream).
+To be capable of use the **SafeSteth** application is required to download and install the application from the [Google Play Store](https://play.google.com/store/apps/details?id=com.uc.healthlab.safesteth).
 
 ### Automatic Connection
 
