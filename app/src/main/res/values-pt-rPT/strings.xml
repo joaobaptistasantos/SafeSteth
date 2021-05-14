@@ -19,4 +19,5 @@
     <string name="filter_title">Filtro:</string>
     <string name="amplification_title">Amplificação:</string>
     <string name="pairing_title">Dispositivos Disponíveis</string>
+    <string name="cancel_search">Cancelar</string>
 </resources>

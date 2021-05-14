@@ -62,9 +62,17 @@ public class PairingAdapter extends RecyclerView.Adapter<PairingAdapter.PairingV
                 if (lastItemClicked == position)
                     return;
 
+                // Get the last item clicked
+                int previousPosition = lastItemClicked;
+                // Set the position of the element clicked as the last one
+                lastItemClicked = position;
+                // Update the previous clicked item (i.e., refresh the view)
+                notifyItemChanged(previousPosition);
+
                 // Change button's text and clickcable flag
                 holder.btPairDevice.setText(context.getString(R.string.state_pairing));
                 holder.btPairDevice.setClickable(false);
+
                 // Alert the listener that the item has been clicked
                 listener.onItemClickListener(position);
             }

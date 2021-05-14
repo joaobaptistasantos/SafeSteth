@@ -45,9 +45,42 @@
         android:id="@+id/rvAvailableDevices"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@id/llCancel"
         android:layout_below="@id/rlTopBar"
         android:layout_marginHorizontal="@dimen/margin_screen"
         android:layout_marginTop="35dp"
-        android:layout_marginBottom="@dimen/margin_screen" />
+        android:layout_marginBottom="@dimen/margin_minimum" />
+
+    <!-- Cancel Button -->
+    <LinearLayout
+        android:id="@+id/llCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_screen"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Cancel Button Logo -->
+        <ImageView
+            android:layout_width="@dimen/dim_ic_s"
+            android:layout_height="@dimen/dim_ic_s"
+            android:layout_marginBottom="@dimen/margin_minimum"
+            android:src="@drawable/ic_close" />
+
+        <!-- Cancel Button Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="@string/cancel_search"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+    </LinearLayout>
 
 </RelativeLayout>

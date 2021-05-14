@@ -10,6 +10,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -78,6 +79,7 @@ public class PairingActivity extends AppCompatActivity {
     private final ArrayList<Stethoscope> availableDevices = new ArrayList<>();
     // View items
     private ImageView ibClose;
+    private LinearLayout llCancel;
     // Recycler View Elements
     private RecyclerView rvAvailableDevices;
     private PairingAdapter rvAvailableDevicesAdapter;
@@ -94,7 +96,7 @@ public class PairingActivity extends AppCompatActivity {
         // References to View Elements
         rvAvailableDevices = findViewById(R.id.rvAvailableDevices);
         ibClose = findViewById(R.id.ibClose);
-        //tvScan = view.findViewById(R.id.tvScan);
+        llCancel = findViewById(R.id.llCancel);
 
         // Setup the Layout Manager and the Recycler View item's divider
         rvAvailableDeviceslayoutManager = new LinearLayoutManager(this);
@@ -110,16 +112,31 @@ public class PairingActivity extends AppCompatActivity {
             public void onItemClickListener(int position) {
                 // If there's a task trying to connect, cancel them
                 if (connectTask != null) {
-                    // Change the previous item clicked
-                    rvAvailableDevicesAdapter.notifyItemChanged(rvAvailableDevicesAdapter.getLastItemClicked());
-                    // Set this one to the last item clicked
-                    rvAvailableDevicesAdapter.setLastItemClicked(position);
                     // Cancel the last connection attempt
                     connectTask.cancel(true);
                 }
 
                 // Start Async task to connect to the selected stethoscope
                 getBluetoothDevices(position);
+            }
+        });
+
+        llCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // If there's a task trying to connect, cancel them
+                if (connectTask != null) {
+                    // Get the previous position before move on
+                    int previousPosition = rvAvailableDevicesAdapter.getLastItemClicked();
+                    // Set -1 to no item being selected
+                    rvAvailableDevicesAdapter.setLastItemClicked(-1);
+                    // Update the previous item clicked
+                    rvAvailableDevicesAdapter.notifyItemChanged(previousPosition);
+                    // Cancel the last connection attempt
+                    connectTask.cancel(true);
+                }
+
+                llCancel.setVisibility(View.GONE);
             }
         });
 
@@ -283,6 +300,7 @@ public class PairingActivity extends AppCompatActivity {
 
         @Override
         protected void onPreExecute() {
+            llCancel.setVisibility(View.VISIBLE);
         }
 
         @Override

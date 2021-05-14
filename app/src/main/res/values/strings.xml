@@ -16,6 +16,7 @@
     <string name="pairing_title">Available Devices</string>
     <string name="state_pairing">Pairing…</string>
     <string name="state_to_pair">Pair</string>
+    <string name="cancel_search">Cancel</string>
 
     <!-- Stethoscope Filters -->
     <string name="filter_bell">Bell</string>
