@@ -49,3 +49,5 @@ com/uc/healthlab/safesteth/BuildConfig.java
  com.uc.healthlab.safesteth.BuildConfig
 com/uc/healthlab/safesteth/model/DataHolder.java
  com.uc.healthlab.safesteth.model.DataHolder
+com/uc/healthlab/safesteth/Utils.java
+ com.uc.healthlab.safesteth.Utils

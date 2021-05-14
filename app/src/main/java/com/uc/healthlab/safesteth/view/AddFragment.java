@@ -11,6 +11,8 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.mmm.healthcare.scope.IBluetoothManager;
@@ -171,11 +173,9 @@ public class AddFragment extends Fragment {
             /* If the Async Task was successfully ended, go to Connection Fragment */
             else if (result == CONNECT_TASK_SUCCESSFUL) {
                 try {
-                    /* Begin the transition to the Connected Fragment and replace the Frame Layout */
-                    getActivity().getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.fl_main, new ConnectedFragment())
-                            .addToBackStack("ConnectedFragment")
-                            .commit();
+                    // Move to Connected Fragment
+                    NavController navController = NavHostFragment.findNavController(AddFragment.this);
+                    navController.navigate(R.id.action_addFragment_to_connectedFragment);
                 } catch (NullPointerException ex) {
                     /* If there is some problems during transition, try to connect again */
                     getBluetoothDevices();

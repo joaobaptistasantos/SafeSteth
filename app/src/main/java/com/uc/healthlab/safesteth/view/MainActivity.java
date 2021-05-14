@@ -13,11 +13,12 @@ import android.provider.Settings;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.uc.healthlab.safesteth.R;
-import com.uc.healthlab.safesteth.IOnBackPressed;
+import com.uc.healthlab.safesteth.Utils;
 import com.uc.healthlab.safesteth.model.PermissionsManager;
 
 import static com.uc.healthlab.safesteth.Constants.PAIR_DEVICES;
@@ -61,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    private NavController navController;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Register the activity to allow license check.
         ConfigurationFactory.setContext(this);
+
+        // Clear cache before start the app
+        Utils.deleteCache(MainActivity.this);
 
         // Check for validations
         switch (PermissionsManager.validateBluetooth(this)) {
@@ -86,28 +92,24 @@ public class MainActivity extends AppCompatActivity {
         IntentFilter intentBluetoothFilter = new IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED);
         registerReceiver(mBluetoothReceiver, intentBluetoothFilter);
 
-        // Create a new fragment to be presented
-        Fragment fragment = new AddFragment();
-
-        // Create transition to this fragment and add him to the stack so we can come back
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.fl_main, fragment)
-                .commit();
+        NavHostFragment navHostFragment =
+                (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
+        navController = navHostFragment.getNavController();
     }
 
     @Override
     public void onBackPressed() {
-        Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.fl_main);
-
-        if (!(fragment instanceof IOnBackPressed) || !((IOnBackPressed) fragment).onBackPressed()) {
-            super.onBackPressed();
-        }
+        Utils.deleteCache(MainActivity.this);
+        super.onBackPressed();
     }
 
     @Override
     protected void onDestroy() {
         // Unregister the bluetooth broadcast receiver
         unregisterReceiver(mBluetoothReceiver);
+
+        // Clear cache before destroy
+        Utils.deleteCache(MainActivity.this);
 
         super.onDestroy();
     }
@@ -124,14 +126,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (requestCode == REQUEST_ACCESS_COARSE_LOCATION && resultCode == Activity.RESULT_CANCELED) {
             startLocationIntent();
         } else if (requestCode == PAIR_DEVICES && resultCode == PAIR_DEVICES_SUCCESSFUL) {
-            // Setup the new fragment
-            Fragment fragment = new ConnectedFragment();
-
-            // Create transition to this fragment and add him to the stack so we can come back
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fl_main, fragment)
-                    .addToBackStack("ConnectedFragment")
-                    .commit();
+            navController.navigate(R.id.action_addFragment_to_connectedFragment);
         }
     }
 

@@ -17,6 +17,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.mmm.healthcare.scope.BitmapFactory;
 import com.mmm.healthcare.scope.Errors;
@@ -217,6 +219,10 @@ public class ConnectedFragment extends Fragment implements IOnBackPressed {
 
             } catch (Exception e) {
                 MediaPlayerWrapper.queueAudioFile(assetManager, WARNING_ERROR_STREAMING);
+
+                if(streamingService.isStreamingFlag())
+                    streamingService.stopStreaming();
+
             }
         } else {
 
@@ -253,8 +259,11 @@ public class ConnectedFragment extends Fragment implements IOnBackPressed {
         // Play audio warning to user
         MediaPlayerWrapper.queueAudioFile(assetManager, WARNING_STETHOSCOPE_DISCONNECTED);
 
-        getActivity().getSupportFragmentManager().popBackStack();
+        // Move to Connected Fragment
+        NavController navController = NavHostFragment.findNavController(this);
+        navController.navigate(R.id.action_connectedFragment_to_addFragment);
     }
+
 
     /**
      * Adds listeners to the stethoscope.

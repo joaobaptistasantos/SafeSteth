@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/addFragment">
+
+    <!-- Add Fragment -->
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.uc.healthlab.safesteth.view.AddFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_add">
+
+        <!-- Move from: Add Fragment, to: Connected Fragment -->
+        <action
+            android:id="@+id/action_addFragment_to_connectedFragment"
+            app:destination="@id/connectFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectFragment"
+        android:name="com.uc.healthlab.safesteth.view.ConnectedFragment"
+        android:label="fragment_blank_fragment2"
+        tools:layout="@layout/fragment_connected">
+
+        <action
+            android:id="@+id/action_connectedFragment_to_addFragment"
+            app:destination="@id/addFragment"
+            app:popUpTo="@+id/addFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+</navigation>
