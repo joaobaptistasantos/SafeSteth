@@ -1,0 +1,51 @@
+com/uc/healthlab/safesteth/AudioConstants.java
+ com.uc.healthlab.safesteth.AudioConstants
+com/uc/healthlab/safesteth/model/MediaPlayerWrapper.java
+ com.uc.healthlab.safesteth.model.MediaPlayerWrapper
+ com.uc.healthlab.safesteth.model.MediaPlayerWrapper$1
+com/uc/healthlab/safesteth/PairingAdapter.java
+ com.uc.healthlab.safesteth.PairingAdapter
+ com.uc.healthlab.safesteth.PairingAdapter$1
+ com.uc.healthlab.safesteth.PairingAdapter$PairingViewHolder
+ com.uc.healthlab.safesteth.PairingAdapter$onItemClickListener
+com/uc/healthlab/safesteth/IOnBackPressed.java
+ com.uc.healthlab.safesteth.IOnBackPressed
+com/uc/healthlab/safesteth/model/PermissionsManager.java
+ com.uc.healthlab.safesteth.model.PermissionsManager
+com/uc/healthlab/safesteth/TTSInputStream.java
+ com.uc.healthlab.safesteth.TTSInputStream
+com/uc/healthlab/safesteth/view/MainActivity.java
+ com.uc.healthlab.safesteth.view.MainActivity
+ com.uc.healthlab.safesteth.view.MainActivity$1
+ com.uc.healthlab.safesteth.view.MainActivity$2
+ com.uc.healthlab.safesteth.view.MainActivity$3
+com/uc/healthlab/safesteth/view/AddFragment.java
+ com.uc.healthlab.safesteth.view.AddFragment
+ com.uc.healthlab.safesteth.view.AddFragment$1
+ com.uc.healthlab.safesteth.view.AddFragment$ConnectTask
+com/uc/healthlab/safesteth/Constants.java
+ com.uc.healthlab.safesteth.Constants
+com/uc/healthlab/safesteth/model/StreamingService.java
+ com.uc.healthlab.safesteth.model.StreamingService
+ com.uc.healthlab.safesteth.model.StreamingService$ReadAndStreamThread
+com/uc/healthlab/safesteth/view/ConnectedFragment.java
+ com.uc.healthlab.safesteth.view.ConnectedFragment
+ com.uc.healthlab.safesteth.view.ConnectedFragment$1
+ com.uc.healthlab.safesteth.view.ConnectedFragment$2
+ com.uc.healthlab.safesteth.view.ConnectedFragment$3
+ com.uc.healthlab.safesteth.view.ConnectedFragment$4
+ com.uc.healthlab.safesteth.view.ConnectedFragment$4$1
+ com.uc.healthlab.safesteth.view.ConnectedFragment$5
+ com.uc.healthlab.safesteth.view.ConnectedFragment$ConnectTask
+com/uc/healthlab/safesteth/view/PairingActivity.java
+ com.uc.healthlab.safesteth.view.PairingActivity
+ com.uc.healthlab.safesteth.view.PairingActivity$1
+ com.uc.healthlab.safesteth.view.PairingActivity$2
+ com.uc.healthlab.safesteth.view.PairingActivity$3
+ com.uc.healthlab.safesteth.view.PairingActivity$4
+ com.uc.healthlab.safesteth.view.PairingActivity$5
+ com.uc.healthlab.safesteth.view.PairingActivity$ConnectTask
+com/uc/healthlab/safesteth/BuildConfig.java
+ com.uc.healthlab.safesteth.BuildConfig
+com/uc/healthlab/safesteth/model/DataHolder.java
+ com.uc.healthlab.safesteth.model.DataHolder

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Maximum height that a logo on the top bar can have -->
-    <dimen name="max_logo_height">120dp</dimen>
     <dimen name="max_logo_height_margin">-120dp</dimen>
 
     <!-- Buttons -->

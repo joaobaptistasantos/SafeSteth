@@ -3,7 +3,6 @@
     <string name="app_name">StethStream</string>
     <string name="alert_bluetooth_not_supported_title">Alerta</string>
     <string name="alert_gps_not_detected_title">Alerta</string>
-    <string name="alert_pairing_error_title">Erro</string>
     <string name="state_pairing">Emparelhando…</string>
     <string name="state_to_pair">Emparelhar</string>
     <string name="alert_bluetooth_not_supported_content">O dispositivo não suporta Bluetooth logo, devido aos requisitos, não é possível continuar na aplicação.</string>

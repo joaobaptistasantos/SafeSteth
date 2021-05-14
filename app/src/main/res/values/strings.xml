@@ -38,8 +38,6 @@
     <string name="alert_gps_not_detected_ok" translatable="false">OK</string>
 
     <!-- Error Pairing -->
-    <string name="alert_pairing_error_title">Error</string>
     <string name="alert_pairing_error_content">There was some problems during pairing, please try again.</string>
-    <string name="alert_pairing_error_ok" translatable="false">OK</string>
 
 </resources>

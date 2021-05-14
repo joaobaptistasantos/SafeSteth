@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_bluetooth_device.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_bluetooth_device.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_logo_chuc.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/logo_chuc.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_off.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_off.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/layout_fragment_connected.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/layout/fragment_connected.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_round_border_gray_filled.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/round_border_gray_filled.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/layout_item_bluetooth_device.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/layout/item_bluetooth_device.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_battery_max.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_battery_max.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_battery_low.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_battery_low.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_stethoscope.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_stethoscope.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_stethoscope_streaming.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_stethoscope_streaming.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/layout_fragment_add.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/layout/fragment_add.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_stop_streaming.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_stop_streaming.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_close.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_logo_uc.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/logo_uc.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_background_circle_black.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/background_circle_black.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/drawable_ic_battery_medium.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/drawable/ic_battery_medium.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/layout_activity_pairing.xml.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/layout/activity_pairing.xml"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/joaosantos/Development/Android/SafeSteth/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    }
+]
