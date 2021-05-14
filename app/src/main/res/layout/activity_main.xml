@@ -5,29 +5,28 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
-    <!-- Top Bar -->
-    <LinearLayout
-        android:id="@+id/ll_top_bar"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/max_logo_height"
+    <!-- UC Logo -->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_uc"
         android:layout_alignParentTop="true"
-        android:orientation="horizontal">
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginStart="15dp"/>
 
-        <!-- UC Logo -->
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/logo_uc" />
+    <!-- CHUC Logo -->
+    <ImageView
+        android:id="@+id/logoCHUC"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_chuc"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginEnd="35dp"/>
 
-        <!-- CHUC Logo -->
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/logo_chuc" />
-
-    </LinearLayout>
 
     <!-- Fragments -->
     <FrameLayout
