@@ -25,6 +25,7 @@
 
     <!-- Error -->
     <string name="non_existence_text" translatable="false">N/A</string>
+    <string name="display_image_error">There was some problems on setting display image.</string>
 
     <!-- Bluetooth Not Supported -->
     <string name="alert_bluetooth_not_supported_title">Alert</string>

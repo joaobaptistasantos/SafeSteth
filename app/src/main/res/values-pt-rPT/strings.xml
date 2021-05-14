@@ -12,7 +12,6 @@
     <string name="filter_bell">Campânula</string>
     <string name="filter_diaphragm">Diafragma</string>
     <string name="filter_extended">Raio Alargado</string>
-    <string name="add_stethoscope_label">Adicionar Estetoscópio</string>
     <string name="add_stethoscope_hint">ou clique \'M\' e selecione \'Connect\' no Littmann</string>
     <string name="start_streaming_label">Começar Streaming</string>
     <string name="stop_streaming_label">Parar Streaming</string>
@@ -20,4 +19,5 @@
     <string name="amplification_title">Amplificação:</string>
     <string name="pairing_title">Dispositivos Disponíveis</string>
     <string name="cancel_search">Cancelar</string>
+    <string name="display_image_error">Ocorreram problemas ao definir a imagem.</string>
 </resources>

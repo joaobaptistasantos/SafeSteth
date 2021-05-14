@@ -1,4 +1,4 @@
-package com.uc.health.safesteth.model;
+package com.uc.healthlab.safesteth.model;
 
 import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;

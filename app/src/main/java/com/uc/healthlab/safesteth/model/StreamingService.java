@@ -1,4 +1,4 @@
-package com.uc.health.safesteth.model;
+package com.uc.healthlab.safesteth.model;
 
 import android.media.AudioAttributes;
 import android.media.AudioFormat;
@@ -8,21 +8,21 @@ import android.os.Handler;
 import android.os.Message;
 
 import com.mmm.healthcare.scope.Stethoscope;
-import com.uc.health.safesteth.TTSInputStream;
+import com.uc.healthlab.safesteth.TTSInputStream;
 
 import java.io.IOException;
 
-import static com.uc.health.safesteth.AudioConstants.DEFAULT_AUDIO_FORMAT;
-import static com.uc.health.safesteth.AudioConstants.DEFAULT_CHANNELS;
-import static com.uc.health.safesteth.AudioConstants.DEFAULT_SAMPLE_RATE;
-import static com.uc.health.safesteth.Constants.MESSAGES_KEY;
-import static com.uc.health.safesteth.Constants.STATE_ERROR;
+import static com.uc.healthlab.safesteth.AudioConstants.DEFAULT_AUDIO_FORMAT;
+import static com.uc.healthlab.safesteth.AudioConstants.DEFAULT_CHANNELS;
+import static com.uc.healthlab.safesteth.AudioConstants.DEFAULT_SAMPLE_RATE;
+import static com.uc.healthlab.safesteth.Constants.MESSAGES_KEY;
+import static com.uc.healthlab.safesteth.Constants.STATE_ERROR;
 
 /**
  * Service to manage streaming data using the received data from the stethoscope
  *
  * @author João R. B. Santos
- * @since 0.2
+ * @since 1.0
  */
 public class StreamingService {
 

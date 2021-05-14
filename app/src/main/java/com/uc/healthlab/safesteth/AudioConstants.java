@@ -1,14 +1,24 @@
-package com.uc.health.safesteth;
+package com.uc.healthlab.safesteth;
 
 import android.media.AudioFormat;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public final class AudioConstants {
 
+    /* File Path of Stethoscope Connected audio warning */
     public static final String WARNING_STETHOSCOPE_CONNECTED = "stethoscope_connected.mp3";
+    /* File Path of Stethoscope Disconnected audio warning */
     public static final String WARNING_STETHOSCOPE_DISCONNECTED = "stethoscope_disconnected.mp3";
+    /* File Path of Stethoscope Out of Range audio warning */
     public static final String WARNING_STETHOSCOPE_OUT_OF_RANGE = "out_of_range.mp3";
+    /* File Path of Stethoscope Error audio warning */
     public static final String WARNING_STETHOSCOPE_ERROR = "stethoscope_error.mp3";
+    /* File Path of Error on Stethoscope Streaming audio warning */
     public static final String WARNING_ERROR_STREAMING = "error_streaming.mp3";
+    /* File Path of Stethoscope's Battery Low audio warning */
     public static final String WARNING_BATTERY_LOW = "stethoscope_battery_low.mp3";
 
     /**

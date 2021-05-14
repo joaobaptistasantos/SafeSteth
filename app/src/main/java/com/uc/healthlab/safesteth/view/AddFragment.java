@@ -1,4 +1,4 @@
-package com.uc.health.safesteth.view;
+package com.uc.healthlab.safesteth.view;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -15,15 +15,24 @@ import androidx.fragment.app.Fragment;
 import com.mmm.healthcare.scope.ConfigurationFactory;
 import com.mmm.healthcare.scope.IBluetoothManager;
 import com.mmm.healthcare.scope.Stethoscope;
-import com.uc.health.safesteth.R;
-import com.uc.health.safesteth.model.DataHolder;
-import com.uc.health.safesteth.model.PermissionsManager;
+import com.mmm.healthcare.scope.StethoscopeException;
+import com.uc.healthlab.safesteth.R;
+import com.uc.healthlab.safesteth.model.DataHolder;
+import com.uc.healthlab.safesteth.model.PermissionsManager;
 
 import java.io.IOException;
 import java.util.Vector;
 
-import static com.uc.health.safesteth.Constants.PAIR_DEVICES;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_CANCELED;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_ERROR;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_NO_DEVICES;
+import static com.uc.healthlab.safesteth.Constants.CONNECT_TASK_SUCCESSFUL;
+import static com.uc.healthlab.safesteth.Constants.PAIR_DEVICES;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public class AddFragment extends Fragment {
     // View elements
     private LinearLayout llAddStethoscope;
@@ -101,64 +110,91 @@ public class AddFragment extends Fragment {
     }
 
     /**
-     * Connects to the stethoscope the user selected. Also generates a report,
-     * adds event listeners, and sets the stethoscope's display.
+     * AsyncTask to do pull pairing in background. The device should be on an infinite loop trying
+     * to connect with possible stethoscopes detected by the Bluetooth Manager. This will keep the
+     * doctor away from interacting with the interface and the connection could be established
+     * without more steps.
+     * <p>
+     * Note: Sometimes this connection is not established at the first time due to broken pipes
+     * detected on tests. This should happen towards abrupt finishes.
+     * <p>
+     * Return:
+     * CONNECT_TASK_CANCELED when the AsyncTask has been canceled but already began
+     * CONNECT_TASK_NO_DEVICES when empty parameters arrive
+     * CONNECT_TASK_ERROR when the connection was not made successfully
+     * CONNECT_TASK_SUCCESSFUL when the connection as been successfully established
      */
-    private class ConnectTask extends AsyncTask<Vector<Stethoscope>, Void, Void> {
+    private class ConnectTask extends AsyncTask<Vector<Stethoscope>, Void, Integer> {
         @Override
-        protected Void doInBackground(Vector<Stethoscope>... params) {
+        protected Integer doInBackground(Vector<Stethoscope>... params) {
+            /* AsyncTask has received no parameters, return CONNECT_TASK_NO_DEVICES */
             if (params.length == 0)
-                return null;
+                return CONNECT_TASK_NO_DEVICES;
 
+            /* Iterate over all stethoscopes available on Bluetooth Manager */
             for (Stethoscope stethoscope : params[0]) {
 
+                /* AsyncTask has been canceled, return CONNECT_TASK_CANCELED */
                 if (isCancelled())
-                    break;
+                    return CONNECT_TASK_CANCELED;
 
-                if (stethoscope.isConnected()) {
+                /* Stethoscope is already connected, disconnect him in order to connect him with
+                 * this device  */
+                if (stethoscope.isConnected())
                     stethoscope.disconnect();
-                    stethoscope.stopAudioInputAndOutput();
-                    break;
-                }
 
                 try {
-                    // Connect to stethoscope
+                    /* Connect with the stethoscope */
                     stethoscope.connect();
-                } catch (IOException e) {
-                    return null;
+                } catch (IOException | StethoscopeException e) {
+                    /* Continue in order to try pair with other stethoscope */
+                    continue;
                 }
 
-                // Save on the Singleton of the application
+                /* Save the stethoscope's instance on Data Holder */
                 DataHolder.getInstance().setmStethoscope(stethoscope);
 
-                // Finish the pairing activity
-                // Setup the new fragment
-                // Create transition to this fragment and add him to the stack so we can come back
+                /* Connection was successfully made, return CONNECT_TASK_SUCCESSFUL code */
+                return CONNECT_TASK_SUCCESSFUL;
+            }
+
+            /* Connected task was not completed successfully, return CONNECT_TASK_ERROR */
+            return CONNECT_TASK_ERROR;
+        }
+
+        @Override
+        protected void onPostExecute(Integer result) {
+            /* If result is null, try to reconnect */
+            if (result == null) {
+                getBluetoothDevices();
+            }
+            /* If the Async Task was successfully ended, go to Connection Fragment */
+            else if (result == CONNECT_TASK_SUCCESSFUL) {
                 try {
+                    /* Begin the transition to the Connected Fragment and replace the Frame Layout */
                     getActivity().getSupportFragmentManager().beginTransaction()
                             .replace(R.id.fl_main, new ConnectedFragment())
                             .addToBackStack("ConnectedFragment")
                             .commit();
                 } catch (NullPointerException ex) {
-                    return null;
+                    /* If there is some problems during transition, try to connect again */
+                    getBluetoothDevices();
                 }
             }
-
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void result) {
-            if (DataHolder.getInstance().getmStethoscope() == null)
+            /* Otherwise, and if the Async Task was not canceled, keep trying to connect with
+             * previously paired or discovered stethoscopes */
+            else if (result != CONNECT_TASK_CANCELED)
                 getBluetoothDevices();
         }
 
         @Override
         protected void onPreExecute() {
+            // Not used.
         }
 
         @Override
         protected void onProgressUpdate(Void... values) {
+            // Not used.
         }
     }
 }

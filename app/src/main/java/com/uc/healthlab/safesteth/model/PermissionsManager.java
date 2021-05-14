@@ -1,10 +1,14 @@
-package com.uc.health.safesteth.model;
+package com.uc.healthlab.safesteth.model;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.location.LocationManager;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public class PermissionsManager {
 
     private static final BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();

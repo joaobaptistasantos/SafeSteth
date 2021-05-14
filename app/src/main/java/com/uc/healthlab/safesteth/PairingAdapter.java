@@ -1,4 +1,4 @@
-package com.uc.health.safesteth;
+package com.uc.healthlab.safesteth;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,6 +14,10 @@ import com.mmm.healthcare.scope.Stethoscope;
 
 import java.util.ArrayList;
 
+/**
+ * @author João R. B. Santos
+ * @since 1.0
+ */
 public class PairingAdapter extends RecyclerView.Adapter<PairingAdapter.PairingViewHolder> {
 
     private final Context context;
