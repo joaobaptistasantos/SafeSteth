@@ -1,0 +1,4 @@
+#Sat May 15 03:48:13 WEST 2021
+base.0=/Users/joaosantos/Development/Android/SafeSteth/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
